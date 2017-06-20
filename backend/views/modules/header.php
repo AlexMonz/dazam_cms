@@ -5,23 +5,8 @@
 <div id="header" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
 
 	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-		
-		<ul>
-			<li  style="background: #333">
-				<a href="mensajes.html" style="color: #fff">
-      			<i class="fa fa-envelope"></i> 
-      			<span>1</span> 
-    			</a>
-			</li>
-
-			<li  style="background: #333">
-				<a href="suscriptores.html" style="color: #fff">
-      			<i class="fa fa-bell"></i>  
-      			<span>1</span>
-    			</a>
-			</li>
 			
-		</ul>
+	</ul>
 
 	</div>
 
