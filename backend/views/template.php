@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>-
 	<meta charset="UTF-8">
 	<title>BackEnd</title>
 
@@ -49,7 +49,6 @@
 		?>
 
 		<!--====  Fin de COLUMNA CONTENIDO  ====-->
-
 		</section>
 	
 	</div>

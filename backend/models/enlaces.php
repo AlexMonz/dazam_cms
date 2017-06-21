@@ -6,11 +6,8 @@ class EnlacesModels{
 
 		if($enlaces == "inicio" ||
 		   $enlaces == "ingreso" ||
-		   $enlaces == "slide" ||
 		   $enlaces == "articulos" ||
 		   $enlaces == "galeria" ||
-		   $enlaces == "videos" ||
-		   $enlaces == "suscriptores" ||
 		   $enlaces == "mensajes" ||
 		   $enlaces == "perfil" ||
 		   $enlaces == "salir"){
