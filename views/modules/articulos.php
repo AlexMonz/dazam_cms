@@ -2,7 +2,7 @@
 			
 	<hr>
 
-	<h1 class="text-center text-info"><b>ARTÍCULOS DE INTERÉS</b></h1>
+	<h1 class="text-center text-info"><b>ARTÍCULOS DISPONIBLES</b></h1>
 
 	<hr>
 

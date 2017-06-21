@@ -4,34 +4,34 @@
 
 			<ul>
 		       <li>
-	           	<img src="views/images/slide/slide01.jpg">
+	           	<img src="views/images/slide/fuego_mano.jpg">
 	           	<div class="slideCaption">
-	           		<h3>Lorem Ipsum</h3>
-			   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	           		<h3>Dazam Soluciones</h3>
+			   		<p>Who Am I ?, I'm an solution</p>
 	           	</div>
 	           </li>
 	           
 		       <li>
-	           	<img src="views/images/slide/slide02.jpg"> 	
+	           	<img src="views/images/slide/fogonok2.jpg"> 	
 	           	<div class="slideCaption">
-	           		<h3>Lorem Ipsum</h3>
-			   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	           		<h3>Dazam Soluciones</h3>
+			   		<p>Who Am I ?,  I'm an solution</p>
 	           	</div>
 	           </li>
 	           
 		       <li>
-	           	<img src="views/images/slide/slide03.jpg">
+	           	<img src="views/images/slide/fogonok3.jpg">
 	           	<div class="slideCaption">
-	           		<h3>Lorem Ipsum</h3>
-			   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	           		<h3>Dazam Soluciones</h3>
+			   		<p>Who Am I ?,  I'm an solution</p>
 	           	</div>
 	           </li>
 	           
 		       <li>
-	           	<img src="views/images/slide/slide04.jpg">
+	           	<img src="views/images/slide/cobre.png">
 	           	<div class="slideCaption">
-	           		<h3>Lorem Ipsum</h3>
-			   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	           		<h3>Dazam Soluciones</h3>
+			   		<p>Who Am I ?,  I'm an solution</p>
 	           	</div>
 	           </li>
 

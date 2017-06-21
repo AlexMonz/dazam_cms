@@ -6,7 +6,7 @@ COLUMNA BOTONERA
 		
 		<div id="logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
-			<img src="views/images/logotipo.jpg" class="img-responsive" alt="Image">
+			<img src="views/images/logotipo.png" class="img-responsive" alt="Image">
 
 
 		</div>

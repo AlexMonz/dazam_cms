@@ -28,9 +28,9 @@
 				
 		<ul class="nav navbar-nav">
 
-			<li><a href="#galeria">Galería</a></li>
-			<li><a href="#articulos">Artículos</a></li>
-			<li><a href="#contactenos">Contáctenos</a></li>
+			<li><a class="btn btn-success" href="#galeria">Galería</a></li>
+			<li><a class="btn btn-success" href="#articulos">Artículos</a></li>
+			<li><a class="btn btn-success" href="#contactenos">Contáctenos</a></li>
 
 		</ul>
 

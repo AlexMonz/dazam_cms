@@ -27,57 +27,57 @@ GALERIA ADMINISTRABLE
 	<ul id="lightbox">
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo01.jpg">
-			<img src="views/images/galeria/photo01.jpg">
+			<a rel="grupo" href="images/galeria/instalacion01.jpg">
+			<img src="views/images/galeria/instalacion01.jpg">
 			</a>
 		</li>
 			
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo02.jpg">
-			<img src="views/images/galeria/photo02.jpg">
+			<a rel="grupo" href="images/galeria/instalacion02.jpg">
+			<img src="views/images/galeria/instalacion02.jpg">
 			</a>		
 		</li>
 
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo03.jpg">
-			<img src="views/images/galeria/photo03.jpg">
+			<a rel="grupo" href="images/galeria/instalacion03.jpg">
+			<img src="views/images/galeria/instalacion03.jpg">
 			</a>		
 		</li>
 
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo04.jpg">
-			<img src="views/images/galeria/photo04.jpg">
+			<a rel="grupo" href="images/galeria/instalacion04.jpg">
+			<img src="views/images/galeria/instalacion04.jpg">
 			</a>		
 		</li>
 
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo01.jpg">
-			<img src="views/images/galeria/photo01.jpg">
+			<a rel="grupo" href="images/galeria/instalacion09.jpg">
+			<img src="views/images/galeria/instalacion09.jpg">
 			</a>
 		</li>
 			
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo02.jpg">
-			<img src="views/images/galeria/photo02.jpg">
+			<a rel="grupo" href="images/galeria/instalacion06.jpg">
+			<img src="views/images/galeria/instalacion06.jpg">
 			</a>		
 		</li>
 
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo03.jpg">
-			<img src="views/images/galeria/photo03.jpg">
+			<a rel="grupo" href="images/galeria/instalacion07.jpg">
+			<img src="views/images/galeria/instalacion07.jpg">
 			</a>		
 		</li>
 
 		<li>
 			<span class="fa fa-times"></span>
-			<a rel="grupo" href="images/galeria/photo04.jpg">
-			<img src="views/images/galeria/photo04.jpg">
+			<a rel="grupo" href="images/galeria/instalacion08.jpg">
+			<img src="views/images/galeria/instalacion08.jpg">
 			</a>		
 		</li>
 	</ul>
