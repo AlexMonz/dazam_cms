@@ -30,7 +30,7 @@
 		CABEZOTE
 		======================================-->
 		
-		<?php include "modules/cabezote.php"; ?>
+		<?php include "modules/header.php"; ?>
 		
 		<!--====  Fin de CABEZOTE  ====-->
 

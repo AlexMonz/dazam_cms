@@ -68,6 +68,8 @@ ARTÍCULOS ADMINISTRABLE
 	$mostrarArticulo = new GestorArticulos();
 	$mostrarArticulo -> mostrarArticulosController();
 	$mostrarArticulo -> borrarArticuloController();
+	$mostrarArticulo -> editarArticuloController();
+	
 
 	?>
 
@@ -92,7 +94,9 @@ ARTÍCULOS ADMINISTRABLE
 
 	</ul>
 
-	<button class="btn btn-warning pull-right" style="margin:10px 30px">Ordenar Artículos</button>
+	<button id="ordenarArticulos" class="btn btn-warning pull-right" style="margin:10px 30px">Ordenar Artículos</button>
+
+	<button id="guardarOrdenArticulos" class="btn btn-primary pull-right" style="display:none; margin:10px 30px">Guardar Orden Artículos</button>
 
 </div>
 

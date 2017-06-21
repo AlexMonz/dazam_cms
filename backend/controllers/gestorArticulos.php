@@ -199,93 +199,95 @@ class GestorArticulos{
 
 	}
 
-}		
 
-// 	#ACTUALIZAR ARTICULO
-// 	#-----------------------------------------------------------
 
-// 	public function editarArticuloController(){
+	#ACTUALIZAR ARTICULO
+	#-----------------------------------------------------------
 
-// 		$ruta = "";
+	public function editarArticuloController(){
 
-// 		if(isset($_POST["editarTitulo"])){
+		$ruta = "";
 
-// 			if(isset($_FILES["editarImagen"]["tmp_name"])){	
+		if(isset($_POST["editarTitulo"])){
 
-// 				$imagen = $_FILES["editarImagen"]["tmp_name"];
+			if(isset($_FILES["editarImagen"]["tmp_name"])){	
 
-// 				$aleatorio = mt_rand(100, 999);
+				$imagen = $_FILES["editarImagen"]["tmp_name"];
 
-// 				$ruta = "views/images/articulos/articulo".$aleatorio.".jpg";
+				$aleatorio = mt_rand(100, 999);
 
-// 				$origen = imagecreatefromjpeg($imagen);
+				$ruta = "views/images/articulos/articulo".$aleatorio.".jpg";
 
-// 				$destino = imagecrop($origen, ["x"=>0, "y"=>0, "width"=>800, "height"=>400]);
+				$origen = imagecreatefromjpeg($imagen);
 
-// 				imagejpeg($destino, $ruta);
+				$destino = imagecrop($origen, ["x"=>0, "y"=>0, "width"=>800, "height"=>400]);
 
-// 				$borrar = glob("views/images/articulos/temp/*");
+				imagejpeg($destino, $ruta);
 
-// 				foreach($borrar as $file){
+				$borrar = glob("views/images/articulos/temp/*");
+
+				foreach($borrar as $file){
 				
-// 					unlink($file);
+					unlink($file);
 				
-// 				}
+				}
 
-// 			}
+			}
 
-// 			if($ruta == ""){
+			if($ruta == ""){
 
-// 				$ruta = $_POST["fotoAntigua"];
+				$ruta = $_POST["fotoAntigua"];
 
-// 			}
+			}
 
-// 			else{
+			else{
 
-// 				unlink($_POST["fotoAntigua"]);
+				unlink($_POST["fotoAntigua"]);
 
-// 			}
+			}
 
-// 			$datosController = array("id"=>$_POST["id"],
-// 			                         "titulo"=>$_POST["editarTitulo"],
-// 								     "introduccion"=>$_POST["editarIntroduccion"],
-// 								     "ruta"=>$ruta,
-// 								     "contenido"=>$_POST["editarContenido"]);
+			$datosController = array("id"=>$_POST["id"],
+			                         "titulo"=>$_POST["editarTitulo"],
+								     "introduccion"=>$_POST["editarIntroduccion"],
+								     "ruta"=>$ruta,
+								     "contenido"=>$_POST["editarContenido"]);
 
-// 			$respuesta = GestorArticulosModel::editarArticuloModel($datosController, "articulos");
+			$respuesta = GestorArticulosModel::editarArticuloModel($datosController, "articulos");
 
-// 			if($respuesta == "ok"){
+			if($respuesta == "ok"){
 
-// 				echo'<script>
+				echo'<script>
 
-// 					swal({
-// 						  title: "¡OK!",
-// 						  text: "¡El artículo ha sido actualizado correctamente!",
-// 						  type: "success",
-// 						  confirmButtonText: "Cerrar",
-// 						  closeOnConfirm: false
-// 					},
+					swal({
+						  title: "¡OK!",
+						  text: "¡El artículo ha sido actualizado correctamente!",
+						  type: "success",
+						  confirmButtonText: "Cerrar",
+						  closeOnConfirm: false
+					},
 
-// 					function(isConfirm){
-// 							 if (isConfirm) {	   
-// 							    window.location = "articulos";
-// 							  } 
-// 					});
+					function(isConfirm){
+							 if (isConfirm) {	   
+							    window.location = "articulos";
+							  } 
+					});
 
 
-// 				</script>';
+				</script>';
 
-// 			}
+			}
 
-// 			else{
+			else{
 
-// 				echo $respuesta;
+				echo $respuesta;
 
-// 			}
+			}
 
-// 		}
+		}
 
-// 	}
+	}
+
+}
 
 // 	#ACTUALIZAR ORDEN 
 // 	#---------------------------------------------------
