@@ -32,8 +32,8 @@ INICIO
 
 		<li class="botonesInicio">
 		
-			<a href="slide">
-			<div style="background:#4CF53A">
+			<a href="#">
+			<div style="background:#1434AD">
 			<span class="fa fa-toggle-right"></span>
 			<p>Slide</p>
 			</div>
@@ -44,7 +44,7 @@ INICIO
 		<li class="botonesInicio">
 		
 			<a href="articulos">
-			<div style="background:#F640DA">
+			<div style="background:#1434AD">
 			<span class="fa fa-file-text-o"></span>
 			<p>Artículos</p>
 			</div>
@@ -55,7 +55,7 @@ INICIO
 		<li class="botonesInicio">
 		
 			<a href="galeria">
-			<div style="background:#04E6DE">
+			<div style="background:#1434AD">
 			<span class="fa fa-image"></span>
 			<p>Imágenes</p>
 			</div>
@@ -65,7 +65,7 @@ INICIO
 
 		<li class="botonesInicio">
 		
-			<a href="videos">
+			<a href="#">
 			<div style="background:#1434AD"> 
 			<span class="fa fa-film"></span>
 			<p>Videos</p>
@@ -76,8 +76,8 @@ INICIO
 
 		<li class="botonesInicio">
 		
-			<a href="suscriptores">
-			<div style="background:#ED3E3E">
+			<a href="#">
+			<div style="background:#1434AD">
 			<span class="fa fa-users"></span>
 			<p>Suscriptores</p>
 			</div>

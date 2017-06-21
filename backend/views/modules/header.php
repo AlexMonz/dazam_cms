@@ -13,8 +13,8 @@
 	<div id="time" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 		
 
-		<div class="text-center">Lunes, 12 de Septiembre de 2016</div>
-		<div class="text-center">12:56:00 pm</div>
+		<div class="text-center">Jueves, 20 de Junio de 2017</div>
+		<div class="text-center">16:56:00 pm</div>
 
 	</div>
 

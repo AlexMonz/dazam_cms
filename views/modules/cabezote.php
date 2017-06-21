@@ -28,10 +28,8 @@
 				
 		<ul class="nav navbar-nav">
 
-			<li><a href="#top">Noticias</a></li>
 			<li><a href="#galeria">Galería</a></li>
 			<li><a href="#articulos">Artículos</a></li>
-			<li><a href="#videos">Videos</a></li>
 			<li><a href="#contactenos">Contáctenos</a></li>
 
 		</ul>

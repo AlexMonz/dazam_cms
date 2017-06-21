@@ -11,7 +11,7 @@ if(!$_SESSION["validar"]){
 }
 
 include "views/modules/botonera.php";
-include "views/modules/cabezote.php";
+include "views/modules/header.php";
 
 ?>
 <!--=====================================

@@ -20,29 +20,41 @@ ARTÍCULOS ADMINISTRABLE
 
 <div id="seccionArticulos" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
 	
-	<button class="btn btn-info btn-lg">Agregar Artículo</button>
+	<button id= "btnAgregarArticulo" class="btn btn-info btn-lg">Agregar Artículo</button>
 
 	<!--==== AGREGAR ARTÍCULO  ====-->
 
-	<div id="agregarArtículo">
+		<div id="agregarArtículo" style="display:none">
 		
-		<input type="text" placeholder="Título del Artículo" class="form-control">
+		<form method="post" enctype="multipart/form-data">
 
-		<textarea name="" id="" cols="30" rows="5" placeholder="Introducción del Articulo" class="form-control"></textarea>
+			<input name="tituloArticulo" type="text" placeholder="Título del Artículo" class="form-control" required>
 
-		<input type="file" name="imagen" class="btn btn-default" id="subirFoto" required>
+			<textarea name="introArticulo" id="" cols="30" rows="5" placeholder="Introducción del Articulo" class="form-control"  maxlength="170" required></textarea>
 
-		<p>Tamaño recomendado: 800px * 400px, peso máximo 2MB</p>
+			<input type="file" name="imagen" class="btn btn-default" id="subirFoto" required>
 
-		<div id="arrastreImagenArticulo">	
-			<div id="imagenArticulo"><img src="views/images/articulos/landscape01.jpg" class="img-thumbnail"></div>
-		</div>
+			<p>Tamaño recomendado: 800px * 400px, peso máximo 2MB</p>
 
-		<textarea name="" id="" cols="30" rows="10" placeholder="Contenido del Articulo" class="form-control"></textarea>
+			<div id="arrastreImagenArticulo">	
+				
+			</div>
 
-		<button id="guardarArticulo" class="btn btn-primary">Guardar Artículo</button>
+			<textarea name="contenidoArticulo" id="" cols="30" rows="10" placeholder="Contenido del Articulo" class="form-control" required></textarea>
+
+			<input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
+
+		</form>
 
 	</div>
+
+	<?php 
+
+	$crearArticulo = new GestorArticulos();
+	$crearArticulo -> guardarArticuloController();
+
+
+	?>
 
 	<hr>
 
@@ -50,6 +62,17 @@ ARTÍCULOS ADMINISTRABLE
 
 	<ul id="editarArticulo">
 
+
+	<?php 
+
+	$mostrarArticulo = new GestorArticulos();
+	$mostrarArticulo -> mostrarArticulosController();
+	$mostrarArticulo -> borrarArticuloController();
+
+	?>
+
+
+<!-- 
 		<li>
 			<span>
 			<i class="fa fa-times btn btn-danger"></i>
@@ -65,23 +88,7 @@ ARTÍCULOS ADMINISTRABLE
 			<hr>
 
 		</li>
-
-		<li>
-			<span>
-			<button class="btn btn-primary pull-right">Guardar</button>	
-			</span>
-
-			<div id="editarImagen"><span class="fa fa-times"></span><img src="views/images/articulos/landscape03.jpg" class="img-thumbnail"></div>
-
-			<input type="text" value="Lorem Ipsum">
-			
-			<textarea cols="30" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
-
-			<textarea name="" id="editarContenido" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
-			
-			<hr>
-
-		</li>
+		 -->
 
 	</ul>
 
@@ -95,7 +102,7 @@ ARTÍCULOS ADMINISTRABLE
 ARTÍCULO MODAL         
 ======================================-->
 
-<div id="articulo1" class="modal fade">
+<!-- <div id="articulo1" class="modal fade">
 
 		<div class="modal-dialog modal-content">
 
@@ -121,6 +128,6 @@ ARTÍCULO MODAL
 
 		</div>
 
-</div>
+</div> -->
 
 <!--====  Fin de ARTICULO MODAL ====-->
